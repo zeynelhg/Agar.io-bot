@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Launcher
 // @namespace   AposLauncher
-// @include     http://agar.io/
+// @include     http://agariopvp.com/
 // @version     2.81
 // @grant       none
 // @author      http://www.twitch.tv/apostolique
@@ -168,7 +168,6 @@ console.log("Running Bot Launcher!");
       b = a.val();
       b && (Z[b] = a.text())
     }));
-    f.get($ + '//m.agar.io/info', function (a) {
       var b = {
       },
       c;
@@ -199,7 +198,7 @@ console.log("Running Bot Launcher!");
   }
   function pa() {
     console.log('Find ' + v + M);
-    f.ajax($ + '//m.agar.io/', {
+     {
       error: function () {
         setTimeout(pa, 1000)
       },
@@ -1031,8 +1030,7 @@ console.log("Running Bot Launcher!");
     h.setAcid = function (a) {
       va = a
     };
-    null != h.localStorage && (null == h.localStorage.AB8 && (h.localStorage.AB8 = 0 + ~~(100 * Math.random())), Qa = + h.localStorage.AB8, h.ABGroup = Qa);
-    f.get($ + '//gc.agar.io', function (a) {
+    null != h.localStorage && (null == h.localStorage.AB8 && (h.localStorage.AB8 = 0 + ~~(100 * Math.random())), Qa = + h.localStorage.AB8, h.ABGroup = Qa)
       var b = a.split(' ');
       a = b[0];
       b = b[1] || '';
